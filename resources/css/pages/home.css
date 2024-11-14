@@ -1,0 +1,39 @@
+.users
+{
+    position: relative;
+    width: 100%;
+    padding: 2em 0;
+}
+.users .title
+{
+    position: relative;
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+}
+.users table.users-table
+{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.users table thead
+{
+    background: #fff;
+    border: 2px solid #fff;
+}
+.users table thead th
+{
+    font-weight: 700;
+    padding: 5px 10px;
+    color: #000;
+}
+.users table tbody
+{
+    border: 2px solid #fff;
+}
+.users table tbody td
+{
+    padding: 10px;
+}

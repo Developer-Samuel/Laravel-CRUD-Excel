@@ -1,0 +1,50 @@
+@media (width >= 1024px) {
+    .container
+    {
+        top: 75px;
+        width: 980px;
+    }
+    @media (height >= 925px) {
+        .content
+        {
+            height: 100vh;
+        }
+    }
+    @media (height < 925px) {
+        .content
+        {
+            height: 925px;
+        }
+    }
+}
+@media (width < 1024px) {
+    .container
+    {
+        width: 100%;
+        padding: 0 10px;
+    }
+    @media (height >= 740px) {
+        .content
+        {
+            height: 100vh;
+        }
+    }
+    @media (height < 740px) {
+        .content
+        {
+            height: 740px;
+        }
+    }
+}
+@media (width >= 640px) and (width < 1024px) {
+    .container
+    {
+        top: 50px;
+    }
+}
+@media (width < 640px) {
+    .container
+    {
+        top: 37.5px;
+    }
+}

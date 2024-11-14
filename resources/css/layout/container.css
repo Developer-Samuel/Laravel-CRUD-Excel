@@ -1,0 +1,12 @@
+.container
+{
+    position: relative;
+    height: auto;
+    margin: 0 auto;
+}
+.container .items-center
+{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}

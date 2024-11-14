@@ -1,0 +1,68 @@
+a { text-decoration: none; }
+button
+{
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.btn
+{
+    color: #fff;
+    border-radius: 30px;
+    outline: 0;
+}
+.btn-edit
+{
+    border: 1px solid #0059FF;
+    background: #0059FF;
+}
+.btn-delete
+{
+    border: 0;
+    background: #FF0000;
+}
+.btn-main
+{
+    position: relative;
+    background: #29F251;
+    border-radius: 30px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.action
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.home-btn
+{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    display: flex;
+    align-items: center;
+    border: 2px solid #0059FF;
+    border-radius: 30px;
+    color: #fff;
+    transition: .3s linear;
+    z-index: 1;
+    cursor: pointer;
+}
+.home-btn:hover
+{
+    background: rgba(0, 89, 255, .5);
+}
+.home-btn img
+{
+    position: relative;
+    filter: invert(100%);
+}
+.home-btn span
+{
+    position: relative;
+    top: 1px;
+    font-weight: 700;
+}

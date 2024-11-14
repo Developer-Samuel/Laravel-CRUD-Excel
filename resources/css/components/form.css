@@ -1,0 +1,38 @@
+.action-form
+{
+    margin-top: 2rem;
+    border: 2px solid #fff;
+    border-radius: 30px;
+}
+.action-form .form-group,
+.action-form input,
+.action-form select
+{
+    position: relative;
+    width: 100%;
+}
+.action-form .form-group
+{
+    margin-bottom: 1.5em;
+}
+.action-form .form-group:last-child
+{
+    margin-bottom: 0;
+}
+.action-form label
+{
+    position: relative;
+    padding-left: 2.5px;
+}
+.action-form input,
+.action-form select
+{
+    margin-top: .5em;
+    padding: 5px 7.5px;
+}
+
+
+.users-table form
+{
+    display: inline;
+}

@@ -1,0 +1,8 @@
+input
+{
+    outline: 0;
+}
+input.disabled
+{
+    opacity: .75;
+}
