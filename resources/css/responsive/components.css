@@ -1,0 +1,183 @@
+@media (width >= 1024px) {
+    .btn
+    {
+        font-size: 15px;
+        padding: 5px 20px;
+    }
+    .btn-main
+    {
+        padding: 7.5px 20px;
+        font-size: 18px;
+    }
+    .action-form
+    {
+        padding: 3.5rem 2rem 2.5rem;
+    }
+    .action-form label,
+    .action-form input,
+    .action-form select
+    {
+        font-size: 16px;
+    }
+    .action
+    {
+        margin-top: 3rem;
+    }
+    #add-action
+    {
+        margin-top: 2em;
+    }
+    .home-btn
+    {
+        top: 25px;
+        padding: .5rem 1rem;
+    }
+    .home-btn img
+    {
+        width: 24px;
+        height: 24px;
+    }
+    .home-btn span
+    {
+        margin-left: .75em;
+        font-size: 16px;
+    }
+    .alert p
+    {
+        font-size: 16px;
+    }
+    .pagination
+    {
+        height: 37.5px;
+        margin-top: 50px;
+    }
+    .previous-page, .page, .next-page
+    {
+        width: 42.5px;
+    }
+    .previous-page span, .page span, .next-page span, .page:not(.active) span
+    {
+        font-size: 16px;
+    }
+    .previous-page img,  .next-page img
+    {
+        width: 12px;
+        height: 12px;
+    }
+}
+@media (width < 1024px) {
+    .btn
+    {
+        font-size: 12px;
+        padding: 3px 10px;
+    }
+    #add-action
+    {
+        margin-top: 1.5em;
+    }
+    .home-btn span
+    {
+        margin-left: .5em;
+    }
+    .previous-page span, .page span, .next-page span, .page:not(.active) span
+    {
+        font-size: 12px;
+    }
+    .previous-page img,  .next-page img
+    {
+        width: 8px;
+        height: 8px;
+    }
+}
+
+@media (width >= 640px) and (width < 1024px) {
+    .btn-main
+    {
+        padding: 7.5px 20px;
+        font-size: 16px;
+    }
+    .action-form
+    {
+        padding: 3rem 1.5rem 2rem;
+    }
+    .action-form label,
+    .action-form input,
+    .action-form select
+    {
+        font-size: 12.5px;
+    }
+    .action
+    {
+        margin-top: 2rem;
+    }
+    .home-btn
+    {
+        top: 20px;
+        padding: 5px .75rem;
+    }
+    .home-btn img
+    {
+        width: 20px;
+        height: 20px;
+    }
+    .home-btn span,
+    .alert p
+    {
+        font-size: 14px;
+    }
+    .pagination
+    {
+        height: 27.5px;
+        margin-top: 50px;
+    }
+    .previous-page, .page, .next-page
+    {
+        width: 30px;
+    }
+}
+
+@media (width < 640px) {
+    .btn-main
+    {
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+    .action-form
+    {
+        padding: 2.5rem 1rem 1.5rem;
+    }
+    .action-form label,
+    .action-form input,
+    .action-form select
+    {
+        font-size: 10px;
+    }
+    .action
+    {
+        margin-top: 1.5rem;
+    }
+    .home-btn
+    {
+        top: 15px;
+        padding: .25rem .5rem;
+    }
+    .home-btn img
+    {
+        width: 16px;
+        height: 16px;
+    }
+    .home-btn span,
+    .alert p
+    {
+        font-size: 12px;
+    }
+    .pagination
+    {
+        height: 25px;
+        margin-top: 37.5px;
+    }
+    .previous-page, .page, .next-page
+    {
+        width: 27.5px;
+    }
+}

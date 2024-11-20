@@ -1,0 +1,139 @@
+.pagination
+{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    width: auto;
+}
+.pagination .pagination-list
+{
+    position: relative;
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.previous-page, .page, .next-page
+{
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 8px 0 #222;
+    border-radius: 12.5px;
+    overflow: hidden;
+    transition: .5s;
+    cursor: pointer;
+}
+.previous-page a img, .page a span
+{
+    margin-top: 1px;
+}
+.next-page a img
+{
+    margin-top: -1px;
+}
+.page
+{
+    background: #fff;
+}
+.page:not(.active)
+{
+    border: 3px solid #fff;
+}
+.page.active
+{
+    background: #000;
+}
+.previous-page:not(.disabled):hover, .next-page:not(.disabled):hover
+{
+    background: #000;
+    color: #fff;
+}
+.page:not(.active):hover
+{
+    background: #000;
+    color: #fff;
+    border: 3px solid #fff;
+}
+.page:not(.active) span, .page:not(.active) a, .page.active span
+{
+    color: #000;
+}
+.previous-page span, .page span, .next-page span, .page:not(.active) span
+{
+    font-weight: 700;
+    color: #000;
+    transition: .5s;
+}
+
+.page:not(.active):hover span, .page:not(.active):hover a
+{
+    color: #fff;
+}
+.previous-page img, .next-page img
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+.next-page a
+{
+    transform: rotate(180deg);
+}
+.pagination a
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.pagination .disabled
+{
+    background: #ccc;
+    border: 2px solid #ccc;
+    color: #000;
+    opacity: 0.75;
+}
+.pagination .disabled img
+{
+    opacity: 0.75;
+}
+.pagination a img, .pagination a span
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+.previous-page:not(.disabled),
+.next-page:not(.disabled)
+{
+    background: #fff;
+    border: 2px solid #fff;
+}
+.previous-page:not(.disabled):hover,
+.next-page:not(.disabled):hover
+{
+    background: #000;
+}
+.previous-page:not(.disabled):hover img,
+.next-page:not(.disabled):hover img
+{
+    filter: invert(100%);
+}
+
+
+.page, .next-page
+{
+    margin-left: 7.5px;
+}
+.page.active
+{
+    margin-left: 10px;
+    margin-right: 2.5px;
+    background: #0059FF;
+    border: 2px solid #0059FF;
+}

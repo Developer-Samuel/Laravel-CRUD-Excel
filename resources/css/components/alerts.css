@@ -1,0 +1,23 @@
+.alert
+{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    top: 15px;
+    border-radius: 30px;
+}
+.alert p
+{
+    text-align: center;
+    font-weight: 700;
+}
+.alert-success
+{
+    background: #29F251;
+    color: #000;
+}
+.alert-danger
+{
+    background: #FF0000;
+    color: #fff;
+}
