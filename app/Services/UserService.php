@@ -108,7 +108,7 @@ class UserService
             $request->input('lastname'),
             $request->input('username'),
             $request->input('email'),
-            $request->input('gender'),
+            ucfirst($request->input('gender')),
         ];
 
         $rows[] = $newUser;
